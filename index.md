@@ -1,7 +1,7 @@
 ---
-title: Home
+title: SkyScout
 ---
-
+Class: EGR 314 Fall Semester 2024
 # Home
 
 ## Introduction
