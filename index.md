@@ -10,6 +10,10 @@ title: Home
 Harris
 **_Bold and Italic Text_**
 
+**Bold Text**
+Skyler
+**_Bold and Italic Text_**
+
 ## Research Question
 
 * Bullet Point 1
