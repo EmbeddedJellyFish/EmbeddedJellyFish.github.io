@@ -2,10 +2,9 @@
 title: Background
 ---
 
-# Background
+# Sky Scout
 
-## Introduction
+## Team 306 - F24
 
-## Conclusions
+## Connor Bogenn, Harris Bokhari, Kai-ra de la Fuente, Skyler Riley
 
-## References
