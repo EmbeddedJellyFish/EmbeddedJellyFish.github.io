@@ -14,6 +14,10 @@ Harris
 Skyler
 **_Bold and Italic Text_**
 
+**Bold Text**
+Connor
+**_Bold and Italic Text_**
+
 ## Research Question
 
 * Bullet Point 1
