@@ -13,6 +13,7 @@ Kai-ra de la Fuente
 Connor Bogenn
 
 ## Introduction
+- [Appendix A](./appendix_TeamOrganization.md)
 
 As a team we got together and thought about what we want our product to reflect for the team. It was decided that we want our team work and skills to be a part of our product since we are all passionate about engineering. The product will reflect our time management, team coordination, ideation, design, programming and the ability to put together a functional product.
 
