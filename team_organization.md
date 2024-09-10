@@ -76,3 +76,5 @@ The instructor will only be notified if communications within the group have bee
 problem has persisted. The other scenario where the instructor will be notified is when a team member
 has failed to contribute or actively obstructed the team’s efforts to communicate and adhere to the
 deliverable deadlines for 2 assignments in a row.
+
+[Back to Main Page](./index.md)
