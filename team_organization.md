@@ -60,3 +60,19 @@ can then help each other. Team activities and milestones will be tracked using a
 folder. The technical responsibilities assigned to team members will be based on their strengths but other
 factors such as preference can be considered. We will discuss when it is time to distribute technical
 responsibilities and come to an agreement.
+
+## Conflict Recognition and Resolution
+Two methods of raising concerns or issues:
+
+1. Commenting in the General Chat - Team members can talk to the team in the groupchat for issues
+that would concern the group such as schedule conflicts for meetings or wanting to change roles.
+- Resoution: Team works as a group to address the issu.
+1. Messaging the Team Lead - Team members can talk to the team lead for more important issues
+like inter-personal conflicts with other team members or falling behind in the classwork.
+- Resolution: Team member and Team Lead work together to come to an understanding
+and a plan moving forward to better address the issue.
+
+The instructor will only be notified if communications within the group have been unsuccessful and the
+problem has persisted. The other scenario where the instructor will be notified is when a team member
+has failed to contribute or actively obstructed the team’s efforts to communicate and adhere to the
+deliverable deadlines for 2 assignments in a row.
