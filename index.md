@@ -1,22 +1,22 @@
 ---
-title: SkyScout
+title: SeaScout
 ---
-Class: EGR 314 Fall Semester 2024
-# Home
+# Project SeaScout
+Arizona State Univeristy, EGR314, Nichols
+Team 306
+August 30, 2024
+
+Contributers:
+Harris Bokhari
+Skyler Riley
+Kai-ra de la Fuente
+Connor Bogenn
 
 ## Introduction
 
-**Bold Text**
-Harris
-**_Bold and Italic Text_**
+As a team we got together and thought about what we want our product to reflect for the team. It was decided that we want our team work and skills to be a part of our product since we are all passionate about engineering. The product will reflect our time management, team coordination, ideation, design, programming and the ability to put together a functional product.
 
-**Bold Text**
-Skyler
-**_Bold and Italic Text_**
-
-**Bold Text**
-Connor
-**_Bold and Italic Text_**
+The goal for the product is to be a mobile weather station that accurately responds to environmental changes in real-time. This will be done over WiFi using the MQTT protocal that will help ensure seemless access to information.
 
 ## Research Question
 
