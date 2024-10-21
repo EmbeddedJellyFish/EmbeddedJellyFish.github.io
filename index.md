@@ -14,10 +14,11 @@ Kai-ra de la Fuente,
 Connor Bogenn
 
 # Table of Contents
-| Description | Link | 
-| ----------- | ---- |
-| Project Introduction | [Introduction](#introduction) |
-| Team Organization | [Team Org](#team-organization) |
+| Description            | Link                      |
+|-----------------------|---------------------------|
+| Project Introduction   | [Introduction](#introduction) |
+| Team Organization      | [Team Org](#team-organization) |
+
 
 ## Introduction
 Weather stations are important to more people than just News Stations, as farmers, outdoor enthusiasts, and more rural communities rely heavily on weather predictions. Farmers need an accurate method of knowing weather conditions for crop timing and in Arizona, they rely on weather stations to know when they should compensate for lack of natural rain. Many outdoor enthusiasts rely on weather forecasting to know when they can safely travel to certain areas or when they should pack extra resources for their trips. The main limitations to current designs are their positioning and accuracy for rain measurements with many customers struggling to find the perfect location for data collection or setting up the weather station in a secure location. Most designs can support wireless data transfer over WiFi so this iteration would need to maintain that along with the accuracy of readings.
