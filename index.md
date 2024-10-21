@@ -14,6 +14,7 @@ Kai-ra de la Fuente,
 Connor Bogenn
 
 # Table of Contents
+
 | Description            | Link                      |
 |------------------------|---------------------------|
 | Project Introduction    | [Introduction](#introduction) |
