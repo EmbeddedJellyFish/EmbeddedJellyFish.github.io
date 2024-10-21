@@ -39,15 +39,13 @@ We got together in person and had an informal discussion where people could comm
     This browser does not support PDFs. Please download the PDF to view it: <a href="docs/Component_Selection.pdf">Download PDF</a>
 </iframe>
 
-<iframe src="docs/BOM.pdf" width="100%" height="600px">
-    This browser does not support PDFs. Please download the PDF to view it: <a href="docs/BOM.pdf">Download PDF</a>
-</iframe>
+![Bill of Materials](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/BOM.png)
 
 ## Hardware Proposal
-![Block Diagram](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Schematic.png)
+![Schematic](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Schematic.png)
 
 ## Software Proposal
-![Block Diagram](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Software_Diagram.png)
+![Software Diagram](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Software_Diagram.png)
 
 ## Presentation 1
 [Presentation](./presentation.md)
