@@ -1,4 +1,5 @@
 ---
+layout: default
 title: SeaScout
 ---
 # Project SeaScout
