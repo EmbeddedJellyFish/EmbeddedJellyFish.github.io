@@ -7,9 +7,9 @@ Team 306
 August 30, 2024
 
 Contributers:
-Harris Bokhari
-Skyler Riley
-Kai-ra de la Fuente
+Harris Bokhari,
+Skyler Riley,
+Kai-ra de la Fuente,
 Connor Bogenn
 
 ##  Team Organization
