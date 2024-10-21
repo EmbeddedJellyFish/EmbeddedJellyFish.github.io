@@ -35,14 +35,10 @@ We got together in person and had an informal discussion where people could comm
 </iframe>
 
 ## Hardware Proposal
-<iframe src="docs/Schematic.pdf" width="100%" height="600px">
-    This browser does not support PDFs. Please download the PDF to view it: <a href="docs/Schematic.pdf">Download PDF</a>
-</iframe>
+![Block Diagram](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Schematic.png)
 
 ## Software Proposal
-<iframe src="docs/Software_Diagram.pdf" width="100%" height="600px">
-    This browser does not support PDFs. Please download the PDF to view it: <a href="docs/Software_Diagram.pdf">Download PDF</a>
-</iframe>
+![Block Diagram](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Software_Diagram.png)
 
 ## Presentation 1
 [Presentation](./presentation.md)
