@@ -26,14 +26,28 @@ When developing a product we regonized the importance of researching user needs 
 
 We got together in person and had an informal discussion where people could communicate their ideas. Each group member was encouraged to give their ideas so everyone contributed. We found that this method worked best because when you are making ideas it is important to prevent one from filtering themself too much so that we can all give our thougts/iterate on that idea. We ranked ideas based on them fitting the requirements, their creativity and their practicality. Thanks to Skylar's excellent skills with computer sketching we were able to have a few visuals on potential ideas we discussed. 
 
-## Micro Controller
-<iframe src="docs/Microcontroller Selection - Microcontroller Selection.pdf" width="100%" height="600px">
-    This browser does not support PDFs. Please download the PDF to view it: <a href="docs/example.pdf">Download PDF</a>
+## Block Diagram
+<iframe src="docs/Block_Diagram.pdf" width="100%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it: <a href="docs/Block_Diagram.pdf">Download PDF</a>
+</iframe>
+
+## Component Selection
+<iframe src="docs/Microcontroller_Selection.pdf" width="100%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it: <a href="docs/Microcontroller_Selection.pdf">Download PDF</a>
+</iframe>
+
+<iframe src="docs/Microcontroller_Selection.pdf" width="100%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it: <a href="docs/Microcontroller_Selection.pdf">Download PDF</a>
+</iframe>
+
+## Hardware Proposal
+<iframe src="docs/Schematic.pdf" width="100%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it: <a href="docs/Schematic.pdf">Download PDF</a>
 </iframe>
 
 ## Software Proposal
 <iframe src="docs/Software_Diagram.pdf" width="100%" height="600px">
-    This browser does not support PDFs. Please download the PDF to view it: <a href="docs/example.pdf">Download PDF</a>
+    This browser does not support PDFs. Please download the PDF to view it: <a href="docs/Software_Diagram.pdf">Download PDF</a>
 </iframe>
 
 ## Presentation 1
