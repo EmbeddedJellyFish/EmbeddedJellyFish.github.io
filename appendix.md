@@ -4,9 +4,9 @@ title: Appendix
 
 [Appendix A: Team Organization](./team_organization.md)
 
-[Appendix B: User Needs & Requirements]
+[Appendix B: User Needs & Requirements](https://github.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/User%20Needs%20and%20Benchmarking.pdf)
 
-[Appendix C: Design Ideation]
+[Appendix C: Design Ideation](https://github.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/Ideation.pdf)
 
 [Appendix D: Block Diagram](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Block_Diagram.png)
 
