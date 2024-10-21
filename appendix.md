@@ -20,4 +20,6 @@ title: Appendix
 
 [Appendix H: Hardware Proposal - BOM](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/BOM.pdf)
 
+[Appendix I: Power Budget](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/Power%20Budget.pdf)
+
 [Back to Main Page](./index.md)
