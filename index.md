@@ -27,9 +27,12 @@ When developing a product we regonized the importance of researching user needs 
 We got together in person and had an informal discussion where people could communicate their ideas. Each group member was encouraged to give their ideas so everyone contributed. We found that this method worked best because when you are making ideas it is important to prevent one from filtering themself too much so that we can all give our thougts/iterate on that idea. We ranked ideas based on them fitting the requirements, their creativity and their practicality. Thanks to Skylar's excellent skills with computer sketching we were able to have a few visuals on potential ideas we discussed. 
 
 ## Block Diagram
-<iframe src="docs/Block_Diagram.pdf" width="100%" height="600px">
-    This browser does not support PDFs. Please download the PDF to view it: <a href="docs/Block_Diagram.pdf">Download PDF</a>
+<iframe src="https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Block_Diagram.pdf
+" width="100%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it: <a href="https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Block_Diagram.pdf
+    ">Download PDF</a>
 </iframe>
+
 
 
 ## Presentation 1
