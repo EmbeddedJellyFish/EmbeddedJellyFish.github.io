@@ -15,9 +15,9 @@ Connor Bogenn
 
 # Table of Contents
 | Description            | Link                      |
-|-----------------------|---------------------------|
-| Project Introduction   | [Introduction](#introduction) |
-| Team Organization      | [Team Org](#team-organization) |
+|------------------------|---------------------------|
+| Project Introduction    | [Introduction](#introduction) |
+| Team Organization       | [Team Org](#team-organization) |
 
 
 ## Introduction
