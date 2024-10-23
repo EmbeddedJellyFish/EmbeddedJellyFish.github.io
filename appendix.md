@@ -8,18 +8,20 @@ title: Appendix
 
 [Appendix C: Design Ideation](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/Ideation.pdf)
 
-[Appendix D: Block Diagram](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Block_Diagram.png)
+[Appendix D: Selected Design](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/306_BoatModel.pdf)
 
-[Appendix E: Component Selection](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Component_Selection.pdf)
+[Appendix E: Block Diagram](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Block_Diagram.png)
 
-[Appendix F: Microcontroller Selection](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Microcontroller_Selection.pdf)
+[Appendix F: Power Budget](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/Power%20Budget.pdf)
 
-[Appendix G: Software Proposal](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Software_Diagram.pdf)
+[Appendix G: Component Selection](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Component_Selection.md)
 
-[Appendix H: Hardware Proposal - Schematic](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Schematic.pdf)
+[Appendix H: Microcontroller Selection](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Microcontroller_Selection.pdf)
 
-[Appendix H: Hardware Proposal - BOM](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/BOM.pdf)
+[Appendix I: Software Proposal](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Software_Diagram.pdf)
 
-[Appendix I: Power Budget](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/Power%20Budget.pdf)
+[Appendix J: Hardware Proposal - Schematic](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Schematic.pdf)
+
+[Appendix K: Hardware Proposal - BOM](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/BOM.pdf)
 
 [Back to Main Page](./index.md)
