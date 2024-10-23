@@ -110,7 +110,13 @@ Similarly to how we decided which design we would use, we researched parts that 
 </div>
 
 ## Hardware Proposal
-![Schematic](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Schematic.png)
+![Schematic]
+
+<div align = "center">
+    <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/SchematicV2.png">
+
+</div>
+
 [See More](./appendix.md)
 
 ## Software Proposal
