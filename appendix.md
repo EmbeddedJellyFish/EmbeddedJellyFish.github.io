@@ -20,7 +20,7 @@ title: Appendix
 
 [Appendix I: Software Proposal](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Software_Diagram.pdf)
 
-[Appendix J: Hardware Proposal - Schematic](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Schematic.pdf)
+[Appendix J: Hardware Proposal - Schematic](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/306_TeamSchematic.pdf)
 
 [Appendix K: Hardware Proposal - BOM](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/BOM.pdf)
 
