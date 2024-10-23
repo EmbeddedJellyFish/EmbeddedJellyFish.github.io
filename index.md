@@ -18,13 +18,20 @@ Connor Bogenn
 <summary> Table of Contents </summary>
     
 [Introduction](#introduction)
+
 [Team Organization](#team-organization)
+
 [Benchmarking](#user-needs,-benchmarking-and-requirements)
+
 [Design Ideation](#design-ideation)
+
 [Block Diagram](#block-diagram)
+
 [Component Selection](#component-selection)
+
 [Hardware Proposal](#hardware-proposal)
-[Software Proposal](#software-proposal)   
+
+[Software Proposal](#software-proposal) 
     
 </details>
 
@@ -54,6 +61,7 @@ The product will be assessed according to the requirements we detailed through t
 ## Design Ideation
 
 We got together in person and had an informal discussion where people could communicate their ideas. Each group member was encouraged to give their ideas so everyone contributed. We found that this method worked best because when you are making ideas it is important to prevent yourself from filtering yourself too much so that you can all give your thoughts/iterate on that idea. We ranked ideas based on them fitting the requirements, their creativity and their practicality. Thanks to Skylar's excellent skills with computer sketching we were able to have a few visuals on potential ideas we discussed. 
+
 [Process Breakdown](./appendix.md)
 
 ### Selected Design
@@ -72,13 +80,35 @@ Once we selected our design, we took turns discussing who would take ownership o
 
 ## Component Selection
 Similarly to how we decided which design we would use, we researched parts that would fulfill the requirements and chose three possibilities. Based on the written pros and cons, we then selected the best option with the exception of non-major components and the microcontroller. After those components were selected and we knew what kinds of signals our sensors and the motor driver would need, one of the team members followed the same process to determine the best microcontroller for our needs. After these were completed, we started adding the necessary materials to our Team Bill of Materials (BOM).
-<iframe src="docs/Component_Selection.pdf" width="100%" height="600px">
-    This browser does not support PDFs. Please download the PDF to view it: <a href="docs/Component_Selection.pdf">Download PDF</a>
-</iframe>
 
-<iframe src="docs/Microcontroller_Selection.pdf" width="100%" height="600px">
-    This browser does not support PDFs. Please download the PDF to view it: <a href="docs/Microcontroller_Selection.pdf">Download PDF</a>
-</iframe>
+[Full Selection & Power Budget](./appendix.md)
+### Motor Driver
+
+<div align = "center">
+    <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Component_Motor_Driver.png">
+
+</div>
+
+### Voltage Regulator
+
+<div align = "center">
+    <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Component_Volt_Reg.png">
+
+</div>
+
+### Humidity Sensor
+
+<div align = "center">
+    <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Component_Humidity_Sensor.png">
+
+</div>
+
+### Temperature Sensor
+
+<div align = "center">
+    <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Component_Temp_Sensor.png">
+
+</div>
 
 ## Hardware Proposal
 ![Schematic](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Schematic.png)
