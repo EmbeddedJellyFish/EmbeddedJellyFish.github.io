@@ -109,8 +109,7 @@ Similarly to how we decided which design we would use, we researched parts that 
 
 </div>
 
-## Hardware Proposal
-![Schematic]
+## Hardware Proposal - Schematic
 
 <div align = "center">
     <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/SchematicV2.png">
@@ -119,8 +118,11 @@ Similarly to how we decided which design we would use, we researched parts that 
 
 [See More](./appendix.md)
 
-## Software Proposal
-![Software Diagram](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Software_Diagram.png)
+## Software Proposal - Software Diagram
+<div align = "center">
+    <img src = "[https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Software_Diagram.png">
+
+</div>
 
 ## Presentation 1
 [Presentation](./presentation.md)
