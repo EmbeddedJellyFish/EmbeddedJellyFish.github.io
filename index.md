@@ -51,10 +51,9 @@ Mission Statement - The goal of the product is to be a mobile weather station th
 
 ## User Needs, Benchmarking and Requirements
 
-\note
-The product will be assessed according to the requirements we detailed through team discussion, revisions, and testing. In the case a requirement is not met, revisions will be made to address it.
-
 **When developing a product we recognized the importance of researching user needs and requirements.** The team decided to take 5 similar products online and create a summary of user needs from documented feedback on the products. Then we grouped similar needs and ranked them both within their own group and in relation to each other. The most important product requirements fell under _Functionality_ and _Safety_ as we felt that the product must fulfill its purpose of existing and the product MUST be safe for users.
+
+**Note:** The product will be assessed according to the requirements we detailed through team discussion, revisions, and testing. In the case a requirement is not met, revisions will be made to address it.
 
 [Benchmarking and Requirements](./appendix.md)
 
