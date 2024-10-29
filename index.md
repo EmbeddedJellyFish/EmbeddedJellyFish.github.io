@@ -92,19 +92,19 @@ Similarly to how we decided which design we would use, we researched parts that 
 
 | Solution 3 | Pros | Cons |
 | ----- | ----- | ----- |
-| ![][image2] LM2596DSADJR4G $2.70 [Link](https://www.digikey.com/en/products/detail/onsemi/LM2596DSADJR4G/2003291) |  Very high maximum output current of 3A 90% efficiency Switching at 150kHz Has a high-voltage range |  Generates a lot of noise Dropout voltage of 2-4V Generates the most heat |
+| <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Comp_Volt_Reg.png"> LM2596DSADJR4G $2.70 [Link](https://www.digikey.com/en/products/detail/onsemi/LM2596DSADJR4G/2003291) |  Very high maximum output current of 3A 90% efficiency Switching at 150kHz Has a high-voltage range |  Generates a lot of noise Dropout voltage of 2-4V Generates the most heat |
 
 ### Humidity Sensor (Sensor 2 Subsystem)
 
 | Solution 3 | Pros | Cons |
 | ----- | ----- | ----- |
-| ![][image3] HIH6030-021-001 14.59$ [Link](https://www.digikey.com/en/products/detail/honeywell-sensing-and-productivity-solutions/HIH6030-021-001/4291625?_gl=1*gdce4m*_up*MQ..&gclid=Cj0KCQjw6oi4BhD1ARIsAL6pox2F7lC9dsWMuQcBle88dzdL_l3uBNudHsvwcUs5quX1dP1AyWQ45oEaAujNEALw_wcB) |  Humidity Range 0 \~ 100% RH Accuracy ±2% RH 1.62V \~ 5.5V Can hand solder it  Big | Most expensive  Operating range \-40°C \~ 105°C 8 wires  |
+| <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Comp_Hum_Sen.png"> HIH6030-021-001 14.59$ [Link](https://www.digikey.com/en/products/detail/honeywell-sensing-and-productivity-solutions/HIH6030-021-001/4291625?_gl=1*gdce4m*_up*MQ..&gclid=Cj0KCQjw6oi4BhD1ARIsAL6pox2F7lC9dsWMuQcBle88dzdL_l3uBNudHsvwcUs5quX1dP1AyWQ45oEaAujNEALw_wcB) |  Humidity Range 0 \~ 100% RH Accuracy ±2% RH 1.62V \~ 5.5V Can hand solder it  Big | Most expensive  Operating range \-40°C \~ 105°C 8 wires  |
 
 ### Temperature Sensor (Sensor 1 Subsystem)
 
 | Solution 3 | Pros | Cons |
 | ----- | ----- | ----- |
-| ![][image4] TC74 $1.15 [Link](https://www.digikey.com/en/products/detail/microchip-technology/TC74A0-3-3VCTTR/443283)   | I2C Lowest Price Best Size Experienced Soldering already | No application for an OpAmp Accuracy varies by 3 degrees C Not able to test new temperature sensor |
+| <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Comp_Temp_Sen.png"> TC74 $1.15 [Link](https://www.digikey.com/en/products/detail/microchip-technology/TC74A0-3-3VCTTR/443283)   | I2C Lowest Price Best Size Experienced Soldering already | No application for an OpAmp Accuracy varies by 3 degrees C Not able to test new temperature sensor |
 
 ## Hardware Proposal - Schematic
 
