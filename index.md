@@ -109,7 +109,7 @@ Similarly to how we decided which design we would use, we researched parts that 
 ## Hardware Proposal - Schematic
 
 <div align = "center">
-    <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/SchematicV2.png">
+    <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Schematic-1.png">
 
 </div>
 
