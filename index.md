@@ -81,33 +81,58 @@ Once we selected our design, we took turns discussing who would take ownership o
 Similarly to how we decided which design we would use, we researched parts that would fulfill the requirements and chose three possibilities. Based on the written pros and cons, we then selected the best option with the exception of non-major components and the microcontroller. After those components were selected and we knew what kinds of signals our sensors and the motor driver would need, one of the team members followed the same process to determine the best microcontroller for our needs. After these were completed, we started adding the necessary materials to our Team Bill of Materials (BOM).
 
 [Full Selection & Power Budget](./appendix.md)
-### Motor Driver
 
-<div align = "center">
-    <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Component_Motor_Driver.png">
+### Motor Driver (Actuator Subsystem)
 
-</div>
+| Solution 1 | Pros | Cons |
+| ----- | ----- | ----- |
+| DRV8830DGQR 
+$1.64 
+[Link](https://www.digikey.com/en/products/detail/texas-instruments/DRV8830DGQR/2520903)  | 3.6A peak output 
+Built-in fault protection 
+PWM control 
+Legs for easier soldering 
+Lowest price. | No built-in feedback control will require more coding 
+May require a heatsink to control overheating. |
 
-### Voltage Regulator
+### Voltage Regulator (Micro-Controller Subsystem)
 
-<div align = "center">
-    <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Component_Volt_Reg.png">
+| Solution 3 | Pros | Cons |
+| ----- | ----- | ----- |
+| LM2596DSADJR4G 
+$2.70 
+[Link](https://www.digikey.com/en/products/detail/onsemi/LM2596DSADJR4G/2003291) |  Very high maximum output current of 3A 
+90% efficiency Switching at 150kHz 
+Has a high-voltage range |  Generates a lot of noise 
+Dropout voltage of 2-4V 
+Generates the most heat |
 
-</div>
+### Humidity Sensor (Sensor 2 Subsystem)
 
-### Humidity Sensor
+| Solution 3 | Pros | Cons |
+| ----- | ----- | ----- |
+| HIH6030-021-001 
+14.59$ 
+[Link](https://www.digikey.com/en/products/detail/honeywell-sensing-and-productivity-solutions/HIH6030-021-001/4291625?_gl=1*gdce4m*_up*MQ..&gclid=Cj0KCQjw6oi4BhD1ARIsAL6pox2F7lC9dsWMuQcBle88dzdL_l3uBNudHsvwcUs5quX1dP1AyWQ45oEaAujNEALw_wcB) |  Humidity Range 0 \~ 100% RH 
+Accuracy ±2% RH 
+1.62V \~ 5.5V 
+Can hand solder it  
+Big | Most expensive  
+Operating range \-40°C \~ 105°C 
+8 wires  |
 
-<div align = "center">
-    <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Component_Humidity_Sensor.png">
+### Temperature Sensor (Sensor 1 Subsystem)
 
-</div>
-
-### Temperature Sensor
-
-<div align = "center">
-    <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Component_Temp_Sensor.png">
-
-</div>
+| Solution 3 | Pros | Cons |
+| ----- | ----- | ----- |
+| TC74 
+$1.15 
+[Link](https://www.digikey.com/en/products/detail/microchip-technology/TC74A0-3-3VCTTR/443283)   | I2C 
+Lowest Price 
+Best Size 
+Experienced Soldering already | No application for an OpAmp 
+Accuracy varies by 3 degrees C 
+Not able to test new temperature sensor |
 
 ## Hardware Proposal - Schematic
 
