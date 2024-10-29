@@ -73,7 +73,7 @@ We selected the design based on the best combination of the ideas that the team 
 ## Block Diagram
 Once we selected our design, we took turns discussing who would take ownership of which subsystem. From there, we did our own research into what kinds of parts we would need and what sort of signals would work best. Then we added it to the Block Diagram and one of the team members went back and made it look nice.
 <div align = "center">
-    <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Block_Diagram.png">
+    <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Block_Diagram-Team_306_V5.png">
 
 </div>
 
@@ -86,25 +86,25 @@ Similarly to how we decided which design we would use, we researched parts that 
 
 | Solution 1 | Pros | Cons |
 | ----- | ----- | ----- |
-| <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Comp_Motor_Driver.png"> DRV8830DGQR $1.64 [Link](https://www.digikey.com/en/products/detail/texas-instruments/DRV8830DGQR/2520903)  | 3.6A peak output Built-in fault protection PWM control Legs for easier soldering Lowest price. | No built-in feedback control will require more coding May require a heatsink to control overheating. |
+| <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Comp_Motor_Driver.png"> DRV8830DGQR $1.64 [Link](https://www.digikey.com/en/products/detail/texas-instruments/DRV8830DGQR/2520903)  | 3.6A peak output; Built-in fault protection; PWM control; Legs for easier soldering; Lowest price. | No built-in feedback control will require more coding; May require a heatsink to control overheating. |
 
 ### Voltage Regulator (Micro-Controller Subsystem)
 
 | Solution 3 | Pros | Cons |
 | ----- | ----- | ----- |
-| <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Comp_Volt_Reg.png"> LM2596DSADJR4G $2.70 [Link](https://www.digikey.com/en/products/detail/onsemi/LM2596DSADJR4G/2003291) |  Very high maximum output current of 3A 90% efficiency Switching at 150kHz Has a high-voltage range |  Generates a lot of noise Dropout voltage of 2-4V Generates the most heat |
+| <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Comp_Volt_Reg.png"> LM2596DSADJR4G $2.70 [Link](https://www.digikey.com/en/products/detail/onsemi/LM2596DSADJR4G/2003291) |  Very high maximum output current of 3A; 90% efficiency; Switching at 150kHz; Has a high-voltage range |  Generates a lot of noise; Dropout voltage of 2-4V; Generates the most heat |
 
 ### Humidity Sensor (Sensor 2 Subsystem)
 
 | Solution 3 | Pros | Cons |
 | ----- | ----- | ----- |
-| <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Comp_Hum_Sen.png"> HIH6030-021-001 14.59$ [Link](https://www.digikey.com/en/products/detail/honeywell-sensing-and-productivity-solutions/HIH6030-021-001/4291625?_gl=1*gdce4m*_up*MQ..&gclid=Cj0KCQjw6oi4BhD1ARIsAL6pox2F7lC9dsWMuQcBle88dzdL_l3uBNudHsvwcUs5quX1dP1AyWQ45oEaAujNEALw_wcB) |  Humidity Range 0 \~ 100% RH Accuracy ±2% RH 1.62V \~ 5.5V Can hand solder it  Big | Most expensive  Operating range \-40°C \~ 105°C 8 wires  |
+| <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Comp_Hum_Sen.png"> HIH6030-021-001 14.59$ [Link](https://www.digikey.com/en/products/detail/honeywell-sensing-and-productivity-solutions/HIH6030-021-001/4291625?_gl=1*gdce4m*_up*MQ..&gclid=Cj0KCQjw6oi4BhD1ARIsAL6pox2F7lC9dsWMuQcBle88dzdL_l3uBNudHsvwcUs5quX1dP1AyWQ45oEaAujNEALw_wcB) |  Humidity Range 0 \~ 100% RH; Accuracy ±2% RH; 1.62V \~ 5.5V; Can hand solder it; Big | Most expensive;  Operating range \-40°C \~ 105°C; 8 wires  |
 
 ### Temperature Sensor (Sensor 1 Subsystem)
 
 | Solution 3 | Pros | Cons |
 | ----- | ----- | ----- |
-| <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Comp_Temp_Sen.png"> TC74 $1.15 [Link](https://www.digikey.com/en/products/detail/microchip-technology/TC74A0-3-3VCTTR/443283)   | I2C Lowest Price Best Size Experienced Soldering already | No application for an OpAmp Accuracy varies by 3 degrees C Not able to test new temperature sensor |
+| <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Comp_Temp_Sen.png"> TC74 $1.15 [Link](https://www.digikey.com/en/products/detail/microchip-technology/TC74A0-3-3VCTTR/443283)   | I2C; Lowest Price; Best Size; Experienced Soldering already | No application for an OpAmp; Accuracy varies by 3 degrees C; Not able to test new temperature sensor |
 
 ## Hardware Proposal - Schematic
 
