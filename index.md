@@ -86,7 +86,7 @@ Similarly to how we decided which design we would use, we researched parts that 
 
 | Solution 1 | Pros | Cons |
 | ----- | ----- | ----- |
-| ![](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Comp_Motor_Drive.png) DRV8830DGQR $1.64 [Link](https://www.digikey.com/en/products/detail/texas-instruments/DRV8830DGQR/2520903)  | 3.6A peak output Built-in fault protection PWM control Legs for easier soldering Lowest price. | No built-in feedback control will require more coding May require a heatsink to control overheating. |
+| ![image1](/main/docs/Comp_Motor_Drive.png) DRV8830DGQR $1.64 [Link](https://www.digikey.com/en/products/detail/texas-instruments/DRV8830DGQR/2520903)  | 3.6A peak output Built-in fault protection PWM control Legs for easier soldering Lowest price. | No built-in feedback control will require more coding May require a heatsink to control overheating. |
 
 ### Voltage Regulator (Micro-Controller Subsystem)
 
