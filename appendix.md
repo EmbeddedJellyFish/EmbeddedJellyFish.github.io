@@ -14,7 +14,7 @@ title: Appendix
 
 [Appendix F: Power Budget](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/Power%20Budget.pdf)
 
-[Appendix G: Component Selection]([./Component_Selection.md](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/Component_Selection.pdf)
+[Appendix G: Component Selection](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/Component_Selection.pdf)
 
 [Appendix H: Microcontroller Selection](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Microcontroller_Selection.pdf)
 
