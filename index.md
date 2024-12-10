@@ -108,7 +108,24 @@ Similarly to how we decided which design we would use, we researched parts that 
 
 ## Hardware Implementation
 
-The most important user needs were that it needed to be fully functional, it needed to be safe and it needed to be easy to use. In the context of our specific project we needed to deliver real time environmental data (humidity/temperature) to the user with a device that can be moved in the given environment. To address these needs we developed a schematic that allowed for temperature/humidity data collection with the TC-74 and HIH6030-021-001 sensors and added a subsystem to allow the product to maneuver in the environment using motors. In order to power and operate these systems a 9 volt 3.3 amp power supply paired with the PIC18f47K42 micro-controller was utilized to meet and deliver these needs. For an in-depth look at the hardware schematic and final product, please refer to [Appendix J: Hardware Implementation - Schematic](./appendix.md#appendix-j).
+The Schematic below shows the design of a mobile weather station that can measure environmental conditions and sends the data back through Wi-Fi.
+
+1. #### Temperature and Humidity Sensors
+   The design includes a temperature sensor and a humidity sensor, which are needed for measuring environmental conditions. These sensors are connected to the microcontroller and provide real-time data on the air's temperature and moisture content, essential for weather monitoring.
+
+2. #### Motor Driver and Motor
+   The motor driver circuit controls the boat's motor, enabling movement across the water. The motor is used to move the boat along a GPS-defined path, which allows for data collection across different areas.
+
+3. #### Mircrocontroller (PIC18F47K42T)
+The microcontroller processes inputs from the temperature and humidity sensors, controlling the motor driver for movement, and managing communication over Wi-Fi. 
+
+4. #### Wi-Fi Communication (ESP 32)
+   The schematic includes an ESP32 module for Wi-Fi communication, which allows the RC boat to upload the collected data to a server or cloud using the MQTT. Allowing the user to view weather conditions without being near the device.
+
+5. #### Power
+   The schematic includes a power supply system with a voltage regulator to keep stable power to the system. This power supply uses 3.3v and has a onboard battery for long uses without having to charge the boat 
+
+For a more in depth look at the hardware here is the PCB and schematic: [Appendix - J: Hardware Implementation](./hardware_implementation.md).
 
 
 <div align = "center">
