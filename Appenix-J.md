@@ -4,9 +4,11 @@
 
 ![JPG Image](docs/Team_Schematic-1.png)
 
-## Printed PCB
+## PCB Cad
 
 ![JPG Image](docs/Team_PCB(front)-1.png)
+
+## PCB Printed
 
 <div align="center">
     <img src="docs/IMG_3067.jpg" alt="JPG Image" width="500" />
@@ -16,4 +18,5 @@
     <img src="docs/IMG_3069.jpg" alt="JPG Image" width="500" />
 </div>
 
+[Appendix](./appendix.md)
 [Back to main page](./index.md)

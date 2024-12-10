@@ -125,7 +125,7 @@ The Schematic below shows the design of a mobile weather station that can measur
 5. #### Power
    The schematic includes a power supply system with a voltage regulator to keep stable power to the system. This power supply steps down 9 volts to 3.3 volts at 3.3 amps of current using an external battery for indepdenent operation of the boat.
 
-For a more in depth look at the hardware here is the PCB and schematic: [Appendix - J: Hardware Implementation](./hardware_implementation.md).
+For a more in depth look at the hardware here is the PCB and schematic: [Appendix - J: Hardware Implementation](./Appenix-J.md).
 
 ## Software Proposal - Software Diagram
 <div align = "center">
