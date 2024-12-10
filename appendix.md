@@ -18,7 +18,7 @@ title: Appendix
 
 [Appendix H: Microcontroller Selection](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Microcontroller_Selection.pdf)
 
-[Appendix I: Software Proposal](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Software_Diagram.pdf)
+[Appendix I: Software Explored](./Appendix-I.md)
 
 [Appendix J: Hardware Implementation](./Appendix-J.md)
 

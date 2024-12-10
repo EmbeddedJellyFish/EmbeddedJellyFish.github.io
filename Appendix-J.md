@@ -18,5 +18,5 @@
     <img src="docs/IMG_3069.jpg" alt="JPG Image" width="500" />
 </div>
 
-[Appendix](./appendix.md) <br><br>
+[Appendix](./appendix.md)<br><br>
 [Back to main page](./index.md)
