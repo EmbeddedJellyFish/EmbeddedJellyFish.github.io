@@ -117,13 +117,13 @@ The Schematic below shows the design of a mobile weather station that can measur
    The motor driver circuit controls the boat's motor, enabling movement across the water. The motor is used to move the boat along a GPS-defined path, which allows for data collection across different areas.
 
 3. #### Mircrocontroller (PIC18F47K42T)
-The microcontroller processes inputs from the temperature and humidity sensors, controlling the motor driver for movement, and managing communication over Wi-Fi. 
+   The microcontroller processes inputs from the temperature and humidity sensors, controlling the motor driver for movement, and managing communication over Wi-Fi. 
 
 4. #### Wi-Fi Communication (ESP 32)
    The schematic includes an ESP32 module for Wi-Fi communication, which allows the RC boat to upload the collected data to a server or cloud using the MQTT. Allowing the user to view weather conditions without being near the device.
 
 5. #### Power
-   The schematic includes a power supply system with a voltage regulator to keep stable power to the system. This power supply uses 3.3v and has a onboard battery for long uses without having to charge the boat 
+   The schematic includes a power supply system with a voltage regulator to keep stable power to the system. This power supply steps down 9 volts to 3.3 volts at 3.3 amps of current using an external battery for indepdenent operation of the boat.
 
 For a more in depth look at the hardware here is the PCB and schematic: [Appendix - J: Hardware Implementation](./hardware_implementation.md).
 
