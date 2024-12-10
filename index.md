@@ -29,7 +29,7 @@ Connor Bogenn
   <li><a href="#presentation-1">Presentation One</a></li>
   <li><a href="#system-verification">System Verification</a></li>
   <li><a href="#lessons-learned">Lessons Learned</a></li>
-  <li><a href="#recommendations">Recommendations</a></li>
+  <li><a href="#recommendations-for-future-students">Recommendations</a></li>
 </ul>
 </details>
 
