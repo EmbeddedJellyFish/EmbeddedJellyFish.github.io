@@ -6,7 +6,7 @@
 
 ## Printed PCB
 
-![JPG Image](docs/Team_PCB(front).png)
+![JPG Image](docs/Team_PCB(front)-1.png)
 
 <div align="center">
     <img src="docs/IMG_3067.jpg" alt="JPG Image" width="500" />
