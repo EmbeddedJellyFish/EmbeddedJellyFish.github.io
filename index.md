@@ -176,7 +176,7 @@ The Schematic below shows the design of a mobile weather station that can measur
 5. #### Power
    The schematic includes a power supply system with a voltage regulator to keep stable power to the system. This power supply steps down 9 volts to 3.3 volts at 3.3 amps of current using an external battery for indepdenent operation of the boat.
 
-For a more in depth look at the hardware here is the PCB and schematic: [Appendix - J: Hardware Implementation](./Appendix-J.md).
+For a more in depth look at the hardware here is the PCB and schematic: [Appendix - K: Hardware Implementation](./Appendix-K.md).
 
 ## <u>Software Implementation</u>
 
@@ -188,7 +188,7 @@ For a more in depth look at the hardware here is the PCB and schematic: [Appendi
 
 &nbsp;&nbsp;&nbsp;&nbsp;The rain sensor measures precipitation levels and communicates this data via UART to the main processor. If the system detects light rain or sprinkling (based on predefined thresholds), it will trigger a timely alert through the MQTT protocol. These alerts notify users of environmental changes, such as the onset of rain, and could prompt actions such as turning off sprinklers or activating drainage systems. The communications subsystem prioritizes accuracy and timeliness, ensuring that these alerts are both precise (accurate rain measurements) and immediate, which is particularly useful for users relying on weather data for irrigation or similar applications.The system is designed to handle only environmental data, which is non-personal. This satisfies both the product requirement for privacy and security and the user need for a system that does not collect or store personal information. The design choices regarding data communication and storage reflect a conscious effort to avoid privacy concerns, ensuring compliance with data protection standards.
 
-For more insight into our software development process go to [Appendix I: Software Explored](./Appendix-I.md)
+For more insight into our software development process go to [Appendix J: Software Explored](./Appendix-J.md)
 
 ## <u>Presentation 1</u>
 [Presentation](./presentation.md)
