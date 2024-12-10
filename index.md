@@ -3,7 +3,7 @@ layout: default
 title: SeaScout
 ---
 
-<link rel="stylesheet" href="../assets/styles.css">
+<link rel="stylesheet" href="assets/styles.css">
 
 # Project SeaScout
 Arizona State Univeristy, EGR314, Nichols

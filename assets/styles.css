@@ -1,9 +1,10 @@
-/* Normal Text (Paragraph) */
+/* General Page Settings */
 body {
-    font-family: Arial, sans-serif; 
+    font-family: Arial, sans-serif;
     font-size: 12pt;
-    line-height: 1.5; 
-    margin: 8px 0;
+    line-height: 1.5;
+    margin: 1in; /* 1-inch margin on all sides */
+    padding: 0;
 }
 
 /* Headings */
