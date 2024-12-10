@@ -14,28 +14,19 @@ Kai-ra de la Fuente,
 Connor Bogenn
 
 <details>
-    
-<summary> Table of Contents </summary>
-    
-- [Introduction](#introduction)
+<summary>Table of Contents</summary>
 
-- [Team Organization](#team-organization)
-
-- [Benchmarking](#user-needs,-benchmarking-and-requirements)
-
-- [Design Ideation](#design-ideation)
-
-- [Block Diagram](#block-diagram)
-
-- [Component Selection](#component-selection)
-
-- [Hardware Proposal](#hardware-implementation)
-
-- [Software Proposal](#software-implementation)
-
-- [Presentation One](#presentation-1)
-
-    
+<ul>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#team-organization">Team Organization</a></li>
+  <li><a href="#user-needs,-benchmarking-and-requirements">Benchmarking</a></li>
+  <li><a href="#design-ideation">Design Ideation</a></li>
+  <li><a href="#block-diagram">Block Diagram</a></li>
+  <li><a href="#component-selection">Component Selection</a></li>
+  <li><a href="#hardware-implementation">Hardware Proposal</a></li>
+  <li><a href="#software-implementation">Software Proposal</a></li>
+  <li><a href="#presentation-1">Presentation One</a></li>
+</ul>
 </details>
 
 ## <u>Introduction</u>
