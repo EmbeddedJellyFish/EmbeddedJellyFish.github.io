@@ -35,13 +35,13 @@ Connor Bogenn
     
 </details>
 
-## Introduction
+## <u>Introduction</u>
 
 Weather stations are important to more people than just News Stations, as farmers, outdoor enthusiasts, and more rural communities rely heavily on weather predictions. Farmers need an accurate method of knowing weather conditions for crop timing and in Arizona, for droughts and temperature extremes. Many outdoor enthusiasts rely on weather forecasting for safe travel times and destinations, or determining resources for their trips. 
 
 We are choosing to especially focus on a weather station that helps Arizona farmers. **In Arizona, the lack of accessible weather measurement systems limits the ability to monitor immediate local changes. While larger protocols operate effectively over oceanic areas, Arizona's enclosed geography presents a unique challenge.** As a secondary problem, Arizona farmers need to utilize every inch of land with purpose. **So we propose a mobile weather station that doesn't get in the way of their jobs, requires extra meteorological knowledge, or requires constant check-ins.**
 
-##  Team Organization
+## <u>Team Organization</u>
 
 Team Charter - As a team we got together and thought about what we wanted our product to reflect for the team. It was decided that we want our teamwork and skills to be a part of our product since we are all passionate about engineering. The product will reflect our time management, team coordination, ideation, design, programming, and ability to put together a functional product.
 
@@ -49,7 +49,7 @@ Mission Statement - The goal of the product is to be a mobile weather station th
 
 [Team Charter](./team_organization.md)
 
-## User Needs, Benchmarking and Requirements
+## <u>User Needs, Benchmarking and Requirements</u>
 
 **When developing a product we recognized the importance of researching user needs and requirements.** The team decided to take 5 similar products online and create a summary of user needs from documented feedback on the products. Then we grouped similar needs and ranked them both within their own group and in relation to each other. The most important product requirements fell under _Functionality_ and _Safety_ as we felt that the product must fulfill its purpose of existing and the product MUST be safe for users.
 
@@ -57,7 +57,7 @@ Mission Statement - The goal of the product is to be a mobile weather station th
 
 [Benchmarking and Requirements](./appendix.md)
 
-## Design Ideation
+## <u>Design Ideation</u>
 
 We got together in person and had an informal discussion where people could communicate their ideas. Each group member was encouraged to give their ideas so everyone contributed. We found that this method worked best because when you are making ideas it is important to prevent yourself from filtering yourself too much so that you can all give your thoughts/iterate on that idea. We ranked ideas based on them fitting the requirements, their creativity and their practicality. Thanks to Skylar's excellent skills with computer sketching we were able to have a few visuals on potential ideas we discussed. 
 
@@ -70,14 +70,15 @@ We selected the design based on the best combination of the ideas that the team 
 
 </div>
 
-## Block Diagram
+## <u>Block Diagram</u
+>
 Once we selected our design, we took turns discussing who would take ownership of which subsystem. From there, we did our own research into what kinds of parts we would need and what sort of signals would work best. Then we added it to the Block Diagram and one of the team members went back and made it look nice.
 <div align = "center">
     <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Block_Diagram_V5.png">
 
 </div>
 
-## Component Selection
+## <u>Component Selection</u>
 Similarly to how we decided which design we would use, we researched parts that would fulfill the requirements and chose three possibilities. Based on the written pros and cons, we then selected the best option with the exception of non-major components and the microcontroller. After those components were selected and we knew what kinds of signals our sensors and the motor driver would need, one of the team members followed the same process to determine the best microcontroller for our needs. After these were completed, we started adding the necessary materials to our Team Bill of Materials (BOM).
 
 [Full Selection & Power Budget](./appendix.md)
@@ -106,7 +107,7 @@ Similarly to how we decided which design we would use, we researched parts that 
 | ----- | ----- | ----- |
 | <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Comp_Temp_Sen.png"> TC74 $1.15 [Link](https://www.digikey.com/en/products/detail/microchip-technology/TC74A0-3-3VCTTR/443283)   | I2C; Lowest Price; Best Size; Experienced Soldering already | No application for an OpAmp; Accuracy varies by 3 degrees C; Not able to test new temperature sensor |
 
-## Hardware Implementation
+## <u>Hardware Implementation</u>
 
 The Schematic below shows the design of a mobile weather station that can measure environmental conditions and sends the data back through Wi-Fi.
 
@@ -127,7 +128,7 @@ The Schematic below shows the design of a mobile weather station that can measur
 
 For a more in depth look at the hardware here is the PCB and schematic: [Appendix - J: Hardware Implementation](./Appendix-J.md).
 
-## Software Implementation
+## <u>Software Implementation</u>
 
 ### User Needs
 &nbsp;&nbsp;&nbsp;&nbsp;The primary user need for this weather station is that it communicates accurate weather data (specifically from the temperature and humidity sensors) reliably and promptly. Users rely on this information to monitor and react to environmental conditions, often needing data to be transmitted without significant delays.
@@ -169,5 +170,5 @@ New peripherals, like real-time clocks and encoders, are integrated into the sys
 More robust communication, including data validation, error checking, and QoS adjustments in the MQTT transmission.
 
 
-## Presentation 1
+## <u>Presentation 1</u>
 [Presentation](./presentation.md)
