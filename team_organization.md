@@ -77,4 +77,5 @@ problem has persisted. The other scenario where the instructor will be notified 
 has failed to contribute or actively obstructed the team’s efforts to communicate and adhere to the
 deliverable deadlines for 2 assignments in a row.
 
-[Back to Main Page](./index.md)
+[Appendix](./appendix.md)<br><br>
+[Back to main page](./index.md)

@@ -4,7 +4,7 @@ title: Appendix
 
 [Appendix A: Team Organization](./team_organization.md)
 
-[Appendix B: User Needs](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/User%20Needs%20and%20Benchmarking.pdf)
+[Appendix B: User Needs](./Appendix-B.md)
 
 [Appendix C: Product Requirements](./Appendix-C.md)
 
@@ -16,7 +16,7 @@ title: Appendix
 
 [Appendix G: Component Selection](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/Component_Selection.pdf)
 
-[Appendix H: Power Budget](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/Power_Budget_Updated.pdf)
+[Appendix H: Power Budget](./Appendix-H.md)
 
 [Appendix I: Microcontroller Selection](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Microcontroller_Selection.pdf)
 

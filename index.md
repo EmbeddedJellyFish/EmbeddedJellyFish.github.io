@@ -52,11 +52,11 @@ Mission Statement - The goal of the product is to be a mobile weather station th
 **When developing a product we recognized the importance of researching user needs and requirements.** The team decided to take 5 similar products online and create a summary of user needs from documented feedback on the products. Then we grouped similar needs and ranked them both within their group and concerning each other. The most important product requirements fell under _Functionality_ and _Safety_ as we felt that the product must fulfill its purpose of existing and the product MUST be safe for users.
 After finishing the product some changes we would make to our initial user needs and benchmarking is looking more into how other devices that are made to be on water deal with measuring humidity and keeping everything watertight for the electronics. Shifting more into looking into more specific weather sensors for use on water than general consumer sensors that can go anywhere.
 
-See a full document regarding our benchmarking in [Appendix B](./appendix.md).
+See a full document regarding our benchmarking in [Appendix B](./Appendix-B.md).
 
 ## <u>Product Requirements</u>
 
-The following is a small sample of our product requirements, see more in [Appendix C](./appendix.md).
+The following is a small sample of our product requirements, see more in [Appendix C](./Appendix-C.md).
 _Aspects_
 1. ### Functionality - 
     1.1 The system shall respond to the environment using serial sensing and actuation for a mobile weather station.
@@ -91,10 +91,10 @@ The temperature and humidity sensors can provide valuable data on local microcli
 
 The team met in person to brainstorm what the product would look like and what things it would include. We started by looking at the available sensors that we were allowed to use and we settled on two that we wanted to use. From there we moved onto what we wanted to use for the base. After we came up with the different bases, it became clear that every design would include at least one motor. From there we discussed the various ways that we could implement a non-linear actuator to alert the user and what it would be alerting for. Some of this last part of the process was spent looking at various prices and requirements for the second actuator. 
 
-See more about how we went through this in our [Process Breakdown](./appendix.md).
+See more about how we went through this in our [Process Breakdown](./Appendix-D.md).
 
 #### Selected Design
-We selected the design based on the best combination of the ideas that the team came up with during the Design Ideation process. We went through a process of ruling out specifics that we did not want to include in any design iteration, and from there we developed 3 options. Based on application, creativity, and our requirements, we voted to develop our second design. Our second design was a small, toy boat that included a humidity sensor and a temperature sensor. Throughout the design process, we ended up combining the idea of using multiple motors to control the boat and allowing for forward and both direction motions. This allowed the user to be able to freely control the boat if any obstacles were to arise. The selected design was best suited for the local environment of canals that we chose as Arizona is full of multiple canal systems to help farmers' irrigation systems. See more detail in [Appendix E](./appendix.md).
+We selected the design based on the best combination of the ideas that the team came up with during the Design Ideation process. We went through a process of ruling out specifics that we did not want to include in any design iteration, and from there we developed 3 options. Based on application, creativity, and our requirements, we voted to develop our second design. Our second design was a small, toy boat that included a humidity sensor and a temperature sensor. Throughout the design process, we ended up combining the idea of using multiple motors to control the boat and allowing for forward and both direction motions. This allowed the user to be able to freely control the boat if any obstacles were to arise. The selected design was best suited for the local environment of canals that we chose as Arizona is full of multiple canal systems to help farmers' irrigation systems. See more detail in [Appendix E](./Appendix-E.md).
 
 <div align = "center">
     <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/CAD_Rendering.png">
@@ -103,7 +103,7 @@ We selected the design based on the best combination of the ideas that the team 
 
 ## <u>Block Diagram</u>
 
-We started with the basic parameters of the project for the main building blocks. From there we added an actuator from the selected design. Then we went through and added the respective communication lines for each device. Once we determined the microcontroller, we added which pins each component would connect to and the kind of communications they would use. Then we added the voltage, part number, and address for each device. Originally we tried to use motor drivers for our actuators, but we were unsuccessful so we updated the block diagram for that section to be what it currently is. See the fuller image in [Appendix F](./appendix.md).
+We started with the basic parameters of the project for the main building blocks. From there we added an actuator from the selected design. Then we went through and added the respective communication lines for each device. Once we determined the microcontroller, we added which pins each component would connect to and the kind of communications they would use. Then we added the voltage, part number, and address for each device. Originally we tried to use motor drivers for our actuators, but we were unsuccessful so we updated the block diagram for that section to be what it currently is. See the fuller image in [Appendix F](./Appendix-F.md).
 
 ### Our block diagram meets the following requirements:
 6.3 The device will contain at least 2 separate serial sensors that measure a specified aspect of the environment.
@@ -120,7 +120,7 @@ We started with the basic parameters of the project for the main building blocks
 ## <u>Component Selection</u>
 Similarly to how we decided which design we would use, we researched parts that would fulfill the requirements and chose three possibilities. Based on the written pros and cons, we then selected the best option with the exception of non-major components and the microcontroller. After those components were selected and we knew what kinds of signals our sensors and the motor driver would need, one of the team members followed the same process to determine the best microcontroller for our needs. After these were completed, we started adding the necessary materials to our Team Bill of Materials (BOM).
 
-See our full selection process in [Appendix G](./appendix.md).
+See our full selection process in [Appendix G](./Appendix-G.md).
 
 #### Motor Driver (Actuator Subsystem)
 
@@ -155,7 +155,7 @@ This is realistically the only option we could pick as we have the requirement o
 It is an I2C sensor so that fulfills one of the sensor requirements. One of the product requirements listed creating an alert based on certain readings, and this sensor aligns perfectly with that goal. This sensor also means that I do not need to use an OpAmp as it is already highly accurate and doesn’t require any signal conditioning.
 
 #### Power Budget 
-The power budget was used to allow the team to understand if any voltage regulations would need to be in place as well as how long the product could remain operating within one battery charge. After filling in the power budget we concluded that it would be best to use 2 voltage regulators as our maximum current was exceeded and we would need to diversify the power into two separate voltage nets. We also concluded that the product would be able to operate for over 400 hours on a single charge which exceeded our initial user needs. See our Power Budget in [Appendix H](./appendix.md).
+The power budget was used to allow the team to understand if any voltage regulations would need to be in place as well as how long the product could remain operating within one battery charge. After filling in the power budget we concluded that it would be best to use 2 voltage regulators as our maximum current was exceeded and we would need to diversify the power into two separate voltage nets. We also concluded that the product would be able to operate for over 400 hours on a single charge which exceeded our initial user needs. See our Power Budget in [Appendix H](./Appendix-H.md).
 
 ## <u>Hardware Implementation</u>
 
@@ -209,9 +209,52 @@ In the following table, you can see the subsystems that were able to successfull
 | (xyz) | serial protocol |
 | nc | No Connection |
 
-
-
 ## <u>Lessons Learned</u>
+&nbsp;&nbsp;&nbsp;&nbsp;Working on this project provided our team with valuable insights and learning experiences. Here are the 10 most important lessons we learned.
 
-## <u>Recommendations</u>
+1. #### Designing PCBs through Altium:
+   We gained hands-on experience with Altium for designing the PCB. This process taught us how to fully design PCBs through software and send them in to get professionally made. 
 
+2. #### Learning the MPLAB Software: 
+   We became proficient in using the MPLAB IDE, a very helpful software for programming our microcontroller. Learning this new software showed us how a different IDE can be run for different applications.
+
+3. #### Better Time Management: 
+   Managing our time efficiently was key to meeting project deadlines. We learned to break the project into manageable tasks, allocate time for each phase, and break off each task to their respective teammate.
+
+4. #### Tackling Problems When Parts of the Project Don’t Work: 
+   We encountered many challenges, especially when certain components or features didn’t work as expected. This taught us how to troubleshoot effectively, break down the problem into smaller parts, and find solutions to finish the product.
+
+5. #### Delegating Work Across the Team: 
+   With four team members, learning how to delegate tasks effectively was key. We divided work based on each person’s strengths, which allowed us to manage the project more efficiently and make the best use of everyone’s skills.
+
+6. #### Helping Teammates with Tough Issues: 
+   When a team member struggled with a tough coding or hardware problem, we learned to collaborate and help each other. One team member might be more proficient in one topic than another so we allowed them to share their ideas across the team.
+
+7. #### Ensuring Everyone Contributes Despite Busy Schedules: 
+   Everyone having a busy schedule was a challenge, but we learned how to make sure every team member contributed. We communicated clearly and set realistic expectations, allowing us to work effectively even with time constraints.
+
+8. #### Understanding Components and System Integration: 
+   We gained a better understanding of the components we were using and how they interact within the system. This experience helped us make better decisions during the design phase.
+
+9. #### The Importance of Adding Test Points to the PCB: 
+   Adding test points to the PCB for easier debugging became one of the key lessons. This small step made troubleshooting much more efficient. It also allowed us to fix the problem without sending in another PCB order saving time.
+
+10. #### Fully Fixing Problems Before Moving Forward: 
+    We learned the importance of fixing issues before moving forward in the project. By making sure that each problem was fully solved before moving to the next phase, we avoided issues that could have delayed the project further down the line.
+
+## <u>Recommendations for Future Students</u>
+
+1. #### Do Not Procrastinate On Deadlines: 
+   The specific deadlines are there for a reason and are a great way to plan out when certain aspects of the project should be completed.
+
+2. #### Ask For Help: 
+Your classmates are there to help you as well as the professor and TAs. Everyone is going through the same struggles and ideas as you. Do not be scared to go around and ask for an opinion even if it seems bothersome. 
+
+3. #### Source Outside Knowledge: 
+The course is laid out very well but it is becoming slightly outdated as the technology used is updated yearly. You may have to watch YouTube tutorials or a simple Google search to figure out what a certain phrase in an application may mean or has been moved around in software.
+
+4. #### Become Understanding Of How Circuits Work: 
+If you do not have a basic knowledge of how circuit systems work with one another and in their own subsystem, the class may seem to become a struggle at times as you and your team work on your own subsystem and later on, combine those subsystems into one.
+
+5. #### Learning Basic Coding Languages: 
+Coding becomes very important in this class as a majority of serial communication is based on how code reacts with the parts given. Most assignments give you a main source code but there is still a majority of additions that will need to be made using your own knowledge.
