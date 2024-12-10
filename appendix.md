@@ -6,13 +6,13 @@ title: Appendix
 
 [Appendix B: User Needs](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/User%20Needs%20and%20Benchmarking.pdf)
 
-[Appendix C: Product Requirements](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/Product_Requirements.pdf)
+[Appendix C: Product Requirements](./Appendix-C.md)
 
-[Appendix D: Design Ideation](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/Ideation.pdf)
+[Appendix D: Design Ideation](./Appendix-D.md)
 
-[Appendix E: Selected Design](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/306_BoatModel.pdf)
+[Appendix E: Selected Design](./Appendix-E.md) 
 
-[Appendix F: Block Diagram](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Block_Diagram_V7.png)
+[Appendix F: Block Diagram](./Appendix-F.md)
 
 [Appendix G: Component Selection](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/Component_Selection.pdf)
 
