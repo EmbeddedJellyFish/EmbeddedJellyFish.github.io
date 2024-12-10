@@ -2,9 +2,7 @@
 
 ## Schematic
 
-<div align="center">
-    <img src="docs/Team_Schematic-1.png" alt="JPG Image" width="500" />
-</div>
+![JPG Image](docs/Team_Schematic-1.png)
 
 ## Printed PCB
 
