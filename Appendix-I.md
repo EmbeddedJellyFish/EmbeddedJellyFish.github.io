@@ -31,3 +31,6 @@ I would update the flow diagram to include: Modular components that clearly show
 Redundancy and error handling, including decision points for retrying failed operations (e.g., lost communication or sensor errors).
 New peripherals, like real-time clocks and encoders, are integrated into the system with clear communication protocols (I2C/SPI).
 More robust communication, including data validation, error checking, and QoS adjustments in the MQTT transmission.
+
+[Appendix](./appendix.md)<br><br>
+[Back to main page](./index.md)
