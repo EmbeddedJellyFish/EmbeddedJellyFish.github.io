@@ -18,14 +18,23 @@ Connor Bogenn
 <summary> Table of Contents </summary>
     
 - [Introduction](#introduction)
+
 - [Team Organization](#team-organization)
+
 - [Benchmarking](#user-needs,-benchmarking-and-requirements)
+
 - [Design Ideation](#design-ideation)
+
 - [Block Diagram](#block-diagram)
+
 - [Component Selection](#component-selection)
+
 - [Hardware Proposal](#hardware-implementation)
+
 - [Software Proposal](#software-implementation)
+
 - [Presentation One](#presentation-1)
+
     
 </details>
 
