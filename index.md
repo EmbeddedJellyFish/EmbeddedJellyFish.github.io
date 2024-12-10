@@ -127,14 +127,6 @@ The microcontroller processes inputs from the temperature and humidity sensors, 
 
 For a more in depth look at the hardware here is the PCB and schematic: [Appendix - J: Hardware Implementation](./hardware_implementation.md).
 
-
-<div align = "center">
-    <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Team_Schematic-1.png">
-
-</div>
-
-[See More](./appendix.md)
-
 ## Software Proposal - Software Diagram
 <div align = "center">
     <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Software_Diagram.png">
