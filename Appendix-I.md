@@ -1,5 +1,7 @@
 # Software Explored
 
+[Code Repository](https://github.com/EmbeddedJellyFish/Code)
+
 #### Process
 &nbsp;&nbsp;&nbsp;We started with the most basic version of what our design would do, which consisted of the microcontroller reading and displaying the data from the sensors. From there we developed the actuator subsystem and designed it so that there would be a cycle of the motors turning on and off based on where the user desired the boat to go. Then we added aspects that would satisfy user interface needs such as allowing the user to choose what route the boat should follow and displaying the data in a user-friendly manner. A lot of this was done on a one-on-one basis where the original creator of the UML would discuss the desires of the owner of that subsystem and then translate that into a program diagram. 
 
