@@ -14,16 +14,16 @@ title: Appendix
 
 [Appendix F: Block Diagram](./Appendix-F.md)
 
-[Appendix G: Component Selection](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/blob/main/docs/Component_Selection.pdf)
+[Appendix G: Component Selection](./Appendix-G.md)
 
 [Appendix H: Power Budget](./Appendix-H.md)
 
-[Appendix I: Microcontroller Selection](https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Microcontroller_Selection.pdf)
+[Appendix I: Microcontroller Selection](./Appendix-I.md)
 
-[Appendix J: Software Explored](./Appendix-I.md)
+[Appendix J: Software Explored](./Appendix-J.md)
 
-[Appendix K: Hardware Implementation](./Appendix-J.md)
+[Appendix K: Hardware Implementation](./Appendix-K.md)
 
-[Appendix K: Bill of Materials](./Appendix-K.md)
+[Appendix L: Bill of Materials](./Appendix-K.md)
 
 [Back to Main Page](./index.md)
