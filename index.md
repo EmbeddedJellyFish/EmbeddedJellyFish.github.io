@@ -2,9 +2,6 @@
 layout: default
 title: SeaScout
 ---
-
-<link rel="stylesheet" href="assets/styles.css">
-
 # Project SeaScout
 Arizona State Univeristy, EGR314, Nichols
 Team 306
@@ -109,10 +106,13 @@ Similarly to how we decided which design we would use, we researched parts that 
 | ----- | ----- | ----- |
 | <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Comp_Temp_Sen.png"> TC74 $1.15 [Link](https://www.digikey.com/en/products/detail/microchip-technology/TC74A0-3-3VCTTR/443283)   | I2C; Lowest Price; Best Size; Experienced Soldering already | No application for an OpAmp; Accuracy varies by 3 degrees C; Not able to test new temperature sensor |
 
-## Hardware Proposal - Schematic
+## Hardware Implementation
+
+The most important user needs were that it needed to be fully functional, it needed to be safe and it needed to be easy to use. In the context of our specific project we needed to deliver real time environmental data (humidity/temperature) to the user with a device that can be moved in the given environment. To address these needs we developed a schematic that allowed for temperature/humidity data collection with the TC-74 and HIH6030-021-001 sensors and added a subsystem to allow the product to maneuver in the environment using motors. In order to power and operate these systems a 9 volt 3.3 amp power supply paired with the PIC18f47K42 micro-controller was utilized to meet and deliver these needs. For an in-depth look at the hardware schematic and final product, please refer to [Appendix J: Hardware Implementation - Schematic](./appendix.md#appendix-j).
+
 
 <div align = "center">
-    <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Schematic-1.png">
+    <img src = "https://raw.githubusercontent.com/EmbeddedJellyFish/EmbeddedJellyFish.github.io/main/docs/Team_Schematic-1.png">
 
 </div>
 
